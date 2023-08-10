@@ -27,6 +27,3 @@ Feel free to explore the codebase, make improvements, and contribute to the proj
 
 We welcome contributions from the community. If you find any issues or have ideas for enhancements, please feel free to submit a pull request or open an issue.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
