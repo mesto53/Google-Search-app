@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "react_native",
+    "slug": "react_native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "package":"com.mesto.finplace",
+      "googleMapsApiKey":"AIzaSyBo-Lb8QYwPsOTn1wVIbu29bcwXrXL1G3U"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow REACT_NATIVE to use your location."
+        }
+      ]
+    ]
+  }
+} 
